@@ -1,7 +1,15 @@
 FROM mongo
 
-RUN 
+# Définition du workdir
+WORKDIR /app
 
-CMD
+RUN npm install
+
+# Exposition du port 8083
+EXPOSE 8083
+
+# Démarrage du serveur
+CMD ["npm", "start"]
+
 
 
