@@ -19,9 +19,7 @@ Ligne de commande :
 
 ## Docker-Compose.yml
 
-
-
-Cre
+fichier de configuration qui définis les services de l'app multi-conteneurs avec les informations des images de conteneurs ...
 
 # Questionnaire Securité
 
