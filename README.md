@@ -22,10 +22,10 @@ fichier de configuration qui définis les services de l'app multi-conteneurs ave
 
 
 
-# Questionnaire Securité
+# Questionnaire Securité applicative
 
-## Creation du fichier Security.md
+## Fichier sur le questionnaire Security.md
 
- - 20 questions avec reponses sur la sécurité.
+ - 20 questions sur la sécurité.
 
 

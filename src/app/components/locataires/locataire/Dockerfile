@@ -2,7 +2,7 @@
 FROM mongo
 
 # Définition du workdir
-WORKDIR /app
+WORKDIR /app/component/
 
 RUN npm install
 
