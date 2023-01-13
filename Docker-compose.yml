@@ -2,20 +2,33 @@ version: '3.3'
 
 services:
   db:
-    build: ./mongo
-    container_name: db
+    image: ./mongo
+    container_name: vehicules
+    port:
+      - 80:84
+    networks:
+      - Vehicule
+
+  locataires:
+    image: ./mongo
+    container_name: locataires
+    port:
+      - 80:81
     networks:
       - Vehicule
   
   locations:
-    build: ./mongo
+    image: ./mongo
     container_name: locations
+    port: 80:82
     networks:
       - Vehicule
 
   locationsValide:
-    build: ./mongo
+    image: ./mongo
     container_name: locationsValide
+    port:
+      - 80:83
     networks:
       - Vehicule
 

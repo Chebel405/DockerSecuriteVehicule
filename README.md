@@ -13,7 +13,6 @@ Ligne de commande :
 ```
     docker build -t <nom_image >
 
----
 
 ```
 
@@ -21,10 +20,12 @@ Ligne de commande :
 
 fichier de configuration qui définis les services de l'app multi-conteneurs avec les informations des images de conteneurs ...
 
+
+
 # Questionnaire Securité
 
 ## Creation du fichier Security.md
 
-20 questions avec reponses sur la sécurité.
+ - 20 questions avec reponses sur la sécurité.
 
 
