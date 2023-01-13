@@ -1,27 +1,32 @@
-# Front
+# Docker 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+Créer, déployer et lancer l'application avec des conteneurs.
 
-## Development server
+## Dockerfile et Docker-Compose.yml
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Creation d'image avec le fichier dockerfile 
 
-## Code scaffolding
+Chaque image porte differentes instructions.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ligne de commande :
 
-## Build
+```
+    docker build -t <nom_image >
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Docker-Compose.yml
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+Cre
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Questionnaire Securité
+
+## Creation du fichier Security.md
+
+20 questions avec reponses sur la sécurité.
+
+

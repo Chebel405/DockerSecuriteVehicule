@@ -5,6 +5,8 @@ WORKDIR /app
 
 RUN npm install
 
+COPY vehicule.component.ts / app/
+
 # Exposition du port 8084
 EXPOSE 8084
 

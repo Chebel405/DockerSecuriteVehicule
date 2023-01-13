@@ -6,6 +6,9 @@ WORKDIR /app
 
 RUN npm install
 
+
+COPY locataires.component.ts / app/
+
 # Exposition du port 8081
 EXPOSE 8081
 

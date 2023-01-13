@@ -5,6 +5,8 @@ WORKDIR /app
 
 RUN npm install
 
+COPY locations-modal.ts / app/
+
 # Exposition du port 8081
 EXPOSE 8082
 
